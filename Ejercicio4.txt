@@ -1,0 +1,23 @@
+Algoritmo ejercicio4
+	Definir mayorEdad, menorEdad, aleatori0 como Entero
+	
+	mayorEdad = 0
+	menorEdad = 90
+	
+	Para i <- 1 Hasta 4 Hacer
+		aleatori0 = 0 + azar(90)
+		Mostrar "Edad: ",aleatori0
+		
+
+		si aleatori0 > mayorEdad Entonces
+			mayorEdad = aleatori0
+		
+		SiNo
+			si aleatori0 < menorEdad Entonces
+				menorEdad = aleatori0
+			FinSi
+		FinSi
+	FinPara
+	
+	Escribir "La edad mayor es ",mayorEdad, " años y la menor edad es de ",menorEdad," años"
+FinAlgoritmo
